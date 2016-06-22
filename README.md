@@ -1,3 +1,9 @@
+```
+(function main() {
+  var Jedi = {
+   theForce: 
+```
+
 Hey hey guys!
 
 Firstly, make sure to watch my [short video CV](https://youtu.be/8BnO1urXgTY), because it has lots of info about my projects, skills and experience.
@@ -9,7 +15,11 @@ Firstly, make sure to watch my [short video CV](https://youtu.be/8BnO1urXgTY), b
 ##### // -------------- Personal Website -------------- //
 [**Website**](http://samai-software.github.io/) / [**Source code**](https://github.com/SamAI-Software/samai-software.github.io) (HTML, CSS, JS, Bootstrap)
 
-I've developed my personal website from scratch (no templates) using a bit of bootstrap. It's fully responsive, and I used the best practices - "don't use certain break points for screens (media), instead just scale the width and fix all problems that occur".
+I've developed my personal website from scratch (no templates) using a bit of bootstrap.
+
+It's fully responsive, and I used the best practices - "don't set certain common break points for screens (media), instead just scale the width and fix all problems that occur".
+
+However, it's desktop-first, because more than 95% visitors use desktop.
 
 
 
@@ -32,7 +42,9 @@ My roles:
 ##### // -------------- Bar Charts -------------- //
 [**View**](http://codepen.io/SamAI-Software/full/rLayqy) / [**Source code**](http://codepen.io/SamAI-Software/pen/rLayqy) (HTML, CSS, JS, JQuery, D3.js)
 
-My goal was to create very clean and well-documented code for bar charts template with different formats, that can be easily embeded into [the website](http://samai-software.github.io/2016-new-coder-survey/) and can be used in other projects.
+My goal was to create very clean and well-documented reusable code for bar charts as a template with different formats, that can be easily embeded into [the website](http://samai-software.github.io/2016-new-coder-survey/) and can be used in other projects.
+
+There are three different formats and all bar charts are responsive (on page resfresh).
 
 ##### // --------------- TwitchTV --------------- //
 [**View**](http://codepen.io/SamAI-Software/full/dMwGaj) / [**Source code**](http://codepen.io/SamAI-Software/pen/dMwGaj) (HTML, CSS, JS, Bootstrap, JQuery, JSON, API, Stylus)
@@ -66,3 +78,10 @@ CodePen: http://codepen.io/SamAI-Software
 FCC: https://www.freecodecamp.com/samai-software
 
 Email: samai.software@gmail.com
+```
+  };
+  
+  return Jedi;
+  
+})();
+```
